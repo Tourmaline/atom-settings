@@ -1,0 +1,15 @@
+"*":
+  core:
+    telemetryConsent: "no"
+  editor:
+    fontSize: 17
+  "exception-reporting":
+    userId: "3f81e074-01d0-4617-a69c-047c4f457733"
+  latex:
+    buildOnSave: true
+    moveResultToSourceDirectory: false
+    outputDirectory: "./build"
+  welcome:
+    showOnStartup: false
+  whitespace:
+    removeTrailingWhitespace: false
