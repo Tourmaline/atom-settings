@@ -2,7 +2,9 @@
   core:
     telemetryConsent: "no"
   editor:
-    fontSize: 17
+    fontSize: 19
+    softWrap: true
+    softWrapAtPreferredLineLength: true
   "exception-reporting":
     userId: "3f81e074-01d0-4617-a69c-047c4f457733"
   latex:
