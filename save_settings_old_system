@@ -1,0 +1,3 @@
+# saving info about atom packages
+
+apm list --installed --bare > atom-package-list.txt
