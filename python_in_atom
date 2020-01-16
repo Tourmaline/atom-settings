@@ -1,0 +1,5 @@
+# maybe not the full list of needed installations
+# I disabled pylint and pydocstring
+pip install pycodestyle
+pip install flake8
+pip install pylama pylama-pylint
