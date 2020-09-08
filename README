@@ -16,3 +16,20 @@ sudo apt update; sudo apt install atom
 spell-check with latex:
 add text.tex.latex into the list of grammars in the settings to the package 
 spell-check
+
+
+-------------------------
+ide-cpp requires clangd. Here are installations instructions:
+
+The clang-tools package usually contains an old version of clangd.
+
+Try to install the latest release (8.0):
+
+$ sudo apt-get install clang-tools-8
+If that is not found, at least clang-tools-7 should be available.
+
+The clangd executable will be installed as /usr/bin/clangd-8. Make it the default clangd:
+$ sudo update-alternatives --install /usr/bin/clangd clangd /usr/bin/clangd-8 100
+
+
+------------------------------
